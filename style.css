@@ -1,4 +1,6 @@
+/* ----------- */
 /* Basic setup */
+/* ----------- */
 
 * {
     margin: 0;
@@ -8,10 +10,103 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-row-gap: 15px;
+    grid-template-columns: auto;
 }
 
 .grid-item {
     border: 1px solid black;
-    height: 100vh;
+    height: 33.3vh;
+}
+
+
+/* ------------ */
+/* Coming soon! */
+/* ------------ */
+
+.coming-soon {
+    position: relative;
+}
+
+.coming-soon-child {
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+}
+
+.coming-soon-child-para {
+    color: #D84CD8;
+    transform: rotate(-14deg);
+}
+
+
+/* --------------- */
+/* Mixd Salon Hero */
+/* --------------- */
+
+.mixd {
+    position: relative;
+}
+
+.mixd-child {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.salon {
+    display: inline-block;
+    font-size: 26px;
+}
+
+.salon-name {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.salon-name::first-letter {
+    font-size: 150%;
+}
+
+.slogan {
+    color: #000000;
+    font-family: helvetica Neue Light;
+    font-size: 28px;
+}
+
+
+/* ------- */
+/* Buttons */
+/* ------- */
+
+.btn {
+    border-radius: 24px;
+    font-size: 24px;
+    outline: none;
+}
+
+.btn-1 {
+    color: #fff;
+    background-color: #D84CD8; 
+    padding: 15px 56px;
+}
+
+.btn-2 {
+    padding: 15px 25px;
+    margin-top: 15px;
+}
+
+.buttons {
+    position: relative;
+}
+
+.button-div {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
