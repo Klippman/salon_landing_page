@@ -20,7 +20,7 @@ body {
 }
 
 .grid-item {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 33.3vh;
 }
 
@@ -34,17 +34,16 @@ body {
 }
 
 .coming-soon-child {
-    font-family: 'Tangerine', cursive;
-    font-size: 42px;
-    font-weight: bold;
     position: absolute;
-    bottom: 2%;
+    bottom: 1%;
     left: 30%;
 }
 
 .coming-soon-child-para {
     color: #D84CD8;
-    transform: rotate(-14deg);
+    font-family: 'Tangerine', cursive;
+    font-size: 42px;
+    transform: rotate(-16deg);
 }
 
 
@@ -68,6 +67,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 32px;
     margin-top: 15px;
+    text-shadow: 0 2px 0 gray;
     word-spacing: 2.5px;
 }
 
@@ -95,6 +95,7 @@ a {
     background-color: #D84CD8;
     border: 1px solid #D84CD8;
     border-radius: 24px;
+    box-shadow: 0 1px 0 #888, 0 5px 0 #666, 0 6px 6px rgba(0,0,0,0.6);
     color: #fff; 
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
@@ -102,11 +103,13 @@ a {
     margin-bottom: 16px;
     outline: none;
     padding: 18px 42px;
+    text-shadow: 0 -1px 0 #000;
 }
 
 .btn-2 {
     border: 1px solid #D84CD8;
     border-radius: 24px;
+    box-shadow: 0 1px 0 #888, 0 5px 0 #666, 0 6px 6px rgba(0,0,0,0.6);
     color: #D84CD8;
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
@@ -114,6 +117,7 @@ a {
     outline: none;
     padding: 18px 12px;
     text-decoration: none;
+    text-shadow: 0 -1px 0 #000;
 }
 
 .btn-1:link,
@@ -124,8 +128,13 @@ a {
 
 .btn-1:hover,
 .btn-1:active {
+    background-color: rgb(207, 33, 207);
+    opacity: 1;
     outline: none;
     text-decoration: none;
+    transform: scale(1.03);
+    transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
 }
 
 .btn-2:link,
@@ -140,4 +149,8 @@ a {
     color: #fff;
     background-color: #D84CD8;
     border: 1px solid #D84CD8;
+    opacity: 1;
+    transform: scale(1.03);
+    transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
 }
