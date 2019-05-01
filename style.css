@@ -8,14 +8,20 @@
     box-sizing: border-box;
 }
 
+body {
+    background-size: cover;
+    background-image: url(images/Web.png);
+    /* background-repeat: no-repeat; */
+    text-rendering: optimizeLegibility;
+}
+
 .grid-container {
     display: grid;
-    grid-row-gap: 15px;
+    /* grid-row-gap: 15px; */
     grid-template-columns: auto;
 }
 
 .grid-item {
-    border: 1px solid black;
     height: 33.3vh;
 }
 
@@ -29,12 +35,12 @@
 }
 
 .coming-soon-child {
-    font-family: cursive;
-    font-size: 30px;
+    font-family: 'Tangerine', cursive;
+    font-size: 42px;
     font-weight: bold;
     position: absolute;
-    bottom: 0;
-    left: 30%;
+    bottom: 2%;
+    left: 26%;
 }
 
 .coming-soon-child-para {
@@ -52,30 +58,40 @@
 }
 
 .mixd-child {
-    left: 50%;
+    left: 47%;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
 .salon {
+    bottom: 34%;
     display: inline-block;
+    font-family: 'Roboto', sans-serif;
     font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    position: absolute;
+    right: -6%;
+    transform: rotate(-90deg);
 }
 
 .salon-name {
-    font-size: 60px;
+    font-size: 122px;
     text-transform: uppercase;
+    transform: scale(1, 1.3);
 }
 
 .salon-name::first-letter {
-    font-size: 150%;
+    font-size: 140%;
 }
 
 .slogan {
     color: #000000;
-    font-family: helvetica Neue Light;
-    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    margin-top: 18px;
+    word-spacing: 2px;
 }
 
 
@@ -85,18 +101,21 @@
 
 .btn {
     border-radius: 24px;
+    cursor: pointer;
     font-size: 24px;
+    font-family: 'Roboto', sans-serif;
     outline: none;
 }
 
 .btn-1 {
     color: #fff;
     background-color: #D84CD8; 
-    padding: 15px 56px;
+    padding: 15px 42px;
 }
 
 .btn-2 {
-    padding: 15px 25px;
+    color: #D84CD8;
+    padding: 15px 12px;
     margin-top: 15px;
 }
 
@@ -105,8 +124,8 @@
 }
 
 .button-div {
-    left: 50%;
+    left: 47%;
     position: absolute;
-    top: 50%;
+    top: 44%;
     transform: translate(-50%, -50%);
 }
