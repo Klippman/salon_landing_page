@@ -99,24 +99,39 @@ body {
 /* Buttons */
 /* ------- */
 
-.btn {
-    border-radius: 24px;
-    cursor: pointer;
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif;
+.btn-1 a:link,
+.btn-1 a:visited {
     outline: none;
+    text-decoration: none;
+}
+
+.btn-2 a:link,
+.btn-2 a:visited {
+    color: #D84CD8;
+    outline: none;
+    text-decoration: none;
 }
 
 .btn-1 {
-    color: #fff;
-    background-color: #D84CD8; 
+    background-color: #D84CD8;
+    border-radius: 24px;
+    color: #fff; 
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    outline: none;
     padding: 15px 42px;
 }
 
 .btn-2 {
-    color: #D84CD8;
-    padding: 15px 12px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
     margin-top: 15px;
+    outline: none;
+    padding: 15px 12px;
+    text-decoration: none;
 }
 
 .buttons {
