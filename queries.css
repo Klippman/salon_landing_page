@@ -63,3 +63,15 @@
         font-size: 23px;
     }
 }
+
+@media only screen and (orientation: landscape) {
+
+    .button-div {
+        bottom: 55%;
+    }
+
+    .coming-soon-child {
+        bottom: 50%;
+        left: 14%;
+    }
+}
