@@ -64,7 +64,15 @@
     }
 }
 
-@media only screen and (orientation: landscape) {
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+
+    .btn-1 {
+        font-size: 20px;
+    }
+
+    .btn-2 {
+        font-size: 20px;
+    }
 
     .button-div {
         bottom: 55%;
