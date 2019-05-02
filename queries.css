@@ -22,17 +22,33 @@
 
     body {
         background-image: url(images/iPhone.png);
+        /* background-position: center; */
         background-size: cover;
         width: 100%;
     }
 
     img {
-        height: 67px;
-        width: 200px;
+        height: 82px;
+        width: 245px;
+    }
+
+    .btn-1 {
+        font-size: 20px;
+        padding: 10px 42px; 
+    }
+
+    .btn-2 {
+        font-size: 20px;
+        padding: 10px 12px;
     }
 
     .coming-soon-child {
         bottom: 15%;
         left: 4%;
+    }
+
+    .slogan {
+        font-size: 16px;
+        word-spacing: 2px;
     }
 }
