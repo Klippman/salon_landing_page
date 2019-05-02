@@ -13,7 +13,13 @@
 /* Small mobile devices to small tablets from 481 to 767px */
 
 @media only screen and (max-width: 767) {
-
+    body {
+        background-attachment: fixed;
+        background-image: url(images/iPhone.png);
+        background-position: center center;
+        /* background-size: cover; */
+        width: 100%;
+    }
 }
 
 /* Small mobile devices from 0 to 480px */
