@@ -1,0 +1,38 @@
+/* Big tablets to 1200px (widths smaller than the 1140px row) */
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Small tablet to big tablet 768 to 1023px */
+
+@media only screen and (max-width: 1023) {
+
+}
+
+/* Small mobile devices to small tablets from 481 to 767px */
+
+@media only screen and (max-width: 767) {
+
+}
+
+/* Small mobile devices from 0 to 480px */
+
+@media only screen and (max-width: 480px) {
+
+    body {
+        background-image: url(images/iPhone.png);
+        background-size: cover;
+        width: 100%;
+    }
+
+    img {
+        height: 67px;
+        width: 200px;
+    }
+
+    .coming-soon-child {
+        bottom: 15%;
+        left: 4%;
+    }
+}
