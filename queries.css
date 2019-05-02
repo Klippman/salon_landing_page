@@ -28,27 +28,26 @@
     }
 
     img {
-        height: 82px;
-        width: 245px;
+        height: 111px;
+        width: 330px;
     }
 
     .btn-1 {
-        font-size: 20px;
-        padding: 10px 42px; 
+        font-size: 12px;
+        text-align: center; 
     }
 
     .btn-2 {
-        font-size: 20px;
-        padding: 10px 12px;
+        font-size: 12px;
+        text-align: center;
     }
 
     .coming-soon-child {
-        bottom: 15%;
-        left: 4%;
+        bottom: 6%;
+        left: 2%;
     }
 
     .slogan {
-        font-size: 16px;
-        word-spacing: 2px;
+        font-size: 23px;
     }
 }
