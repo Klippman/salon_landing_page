@@ -22,7 +22,6 @@
 
     body {
         background-image: url(images/iPhone.png);
-        /* background-position: center; */
         background-size: cover;
         width: 100%;
     }
@@ -33,18 +32,24 @@
     }
 
     .btn-1 {
-        font-size: 12px;
-        text-align: center; 
+        font-size: 12px; 
     }
 
     .btn-2 {
         font-size: 12px;
-        text-align: center;
+    }
+
+    .button-div {
+        top: 26%;
     }
 
     .coming-soon-child {
         bottom: 6%;
         left: 2%;
+    }
+
+    .mixd-logo-child {
+        top: 44%;
     }
 
     .slogan {
