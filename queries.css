@@ -38,7 +38,8 @@
     }
 
     .btn-1 {
-        font-size: 12px; 
+        font-size: 12px;
+        padding: 10px 12px;
     }
 
     .btn-2 {
@@ -55,23 +56,31 @@
         left: 2%;
     }
 
+    .logo {
+        padding: 0px;
+    }
+
     .mixd-logo-child {
         top: 44%;
     }
 
     .slogan {
-        font-size: 23px;
+        font-size: 17px;
+        text-align: center;
+        word-spacing: 3px;
     }
 }
 
-@media screen and (max-width: 830px) and (orientation: landscape) {
+@media screen and (min-width: 320px) and (max-width: 830px) and (orientation: landscape) {
 
     .btn-1 {
-        font-size: 20px;
+        font-size: 17px;
+        padding: 16px 0px;
     }
 
     .btn-2 {
-        font-size: 20px;
+        font-size: 17px;
+        padding: 16px 20px;
     }
 
     .button-div {
@@ -79,7 +88,16 @@
     }
 
     .coming-soon-child {
-        bottom: 50%;
+        bottom: 40%;
         left: 14%;
+    }
+
+    .logo {
+        padding: 0px;
+    }
+
+    .slogan {
+        font-size: 16px;
+        text-align: center;
     }
 }
